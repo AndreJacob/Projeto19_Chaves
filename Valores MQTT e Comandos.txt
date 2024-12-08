@@ -1,0 +1,51 @@
+
+MQTT - (ESP32) Dispositivos
+0 - Desligar Lãmpada Cozinha
+1 - Ligar Lmampada Cozinha
+2 - Ligar Sala
+3 - Desligar Sala
+4 - Liga led Azul
+5 - Desliga Led azul
+
+MQTT - Ação (Esp8266) Barril do Chaves:
+20 - Acende D1
+21 - Apaga D1 (Verde)
+22 - Acende D2 (Azul)
+23 - Apaga D2
+24 - Acende D3 (Amarelo)
+25 - Apaga D3
+26 - Acende D4 (Vermelho)
+27 - Apaga D4
+28 - Acende D5 (Verde)
+29 - Apaga D5
+30 - Pisca D1
+31 - Pisca D2
+32 - Pisca D3
+33 - Pisca D4
+34 - Pisca D5
+35 - Sequência de ligar(D1, D2, D3, D4 e D5), apagar (D5, D4, D3, D2, D1)
+36 - Piscam todos leds juntos.
+37 - Pisca leds de forma randomica, aleatória.
+38 - Acente todos os leds juntos.
+39 - Apaga todos os leds.
+
+
+MQTT - Ação (Esp8266) Ventilador do Chaves:
+Comandos Ventilador D0; 
+40 - Deve pulsar D12 uma vez
+41 - Deve pulsar D12 duas vezes
+42 - Deve pulsar D12 três vezes
+43 - Deve pulsar D12 quatro vezes
+
+Comandos Vapor D1;
+50 - Deve pulsar D14 uma vez
+51 - Deve pulsar D14 duas vezes
+52 - Deve pulsar D14 três vezes
+53 - Deve pulsar D14 quatro vezes
+
+Comandos Led D2;
+60 - Deve pulsar D27 uma vez
+61 - Deve pulsar D27 duas vezes
+62 - Deve pulsar D27 três vezes
+63 - Deve pulsar D27 quatro vezes
+
